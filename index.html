@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lograr Studious | Software Studio</title>
+  <meta name="description" content="Lograr Studious LLC is a software studio that designs and builds websites, apps and custom software that achieve real results." />
+  <meta name="theme-color" content="#0d0b12" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800;900&family=Archivo+Narrow:wght@700&family=Space+Mono:wght@400;700&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <a href="#top" class="logo" aria-label="Lograr Studious home">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 6h8v28h20v8H10z" fill="currentColor"/><path d="M24 22l8-10 8 10h-5v8h-6v-8z" fill="var(--accent)"/></svg>
+    </a>
+    <a href="#top" class="wordmark">LOGRAR STUDIOUS</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Full-screen menu -->
+  <nav class="menu" id="menu" aria-hidden="true">
+    <div class="menu-bg-word" aria-hidden="true">MENU</div>
+    <ul>
+      <li><a href="#work"><span class="mono">01</span>Work</a></li>
+      <li><a href="#about"><span class="mono">02</span>About</a></li>
+      <li><a href="#services"><span class="mono">03</span>Services</a></li>
+      <li><a href="#process"><span class="mono">04</span>Process</a></li>
+      <li><a href="#contact"><span class="mono">05</span>Contact</a></li>
+    </ul>
+    <p class="menu-foot mono">Lograr (v.) &nbsp;/&nbsp; to achieve, to accomplish</p>
+  </nav>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero cream" id="hero">
+      <div class="hero-letters" aria-hidden="true">
+        <span>LO</span><span>GR</span><span>AR</span>
+      </div>
+
+      <div class="hero-side hero-left reveal">
+        <div class="mini-card tilt">
+          <div class="mini-card-inner">
+            <span class="mono">EST.</span>
+            <strong>2024</strong>
+            <span class="mono">SOFTWARE STUDIO</span>
+          </div>
+        </div>
+        <p>A software studio that designs and builds websites, apps and custom tools for brands that want results, not just a launch.</p>
+      </div>
+
+      <div class="hero-center">
+        <h1 class="hero-title reveal">
+          <span>We build</span>
+          <span>software that</span>
+          <span class="accent-word">achieves.</span>
+        </h1>
+        <div class="device tilt reveal" aria-hidden="true">
+          <div class="device-bar"><i></i><i></i><i></i><span class="mono">lograr.dev/build</span></div>
+          <pre class="code" id="code"></pre>
+        </div>
+      </div>
+
+      <div class="hero-side hero-right reveal">
+        <div class="signature" aria-hidden="true">Lograr</div>
+        <p>From the first sketch to the final deploy. Every line we write carries intention, craft and a goal you can measure.</p>
+      </div>
+
+      <a href="#work" class="scroll-cue mono">Scroll <span>&darr;</span></a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Web Development</span><b>&#10022;</b><span>Mobile Apps</span><b>&#10022;</b><span>UI / UX Design</span><b>&#10022;</b><span>Custom Software</span><b>&#10022;</b><span>E-Commerce</span><b>&#10022;</b><span>Brand Systems</span><b>&#10022;</b>
+        <span>Web Development</span><b>&#10022;</b><span>Mobile Apps</span><b>&#10022;</b><span>UI / UX Design</span><b>&#10022;</b><span>Custom Software</span><b>&#10022;</b><span>E-Commerce</span><b>&#10022;</b><span>Brand Systems</span><b>&#10022;</b>
+      </div>
+    </div>
+
+    <!-- WORK (horizontal scroll) -->
+    <section class="work dark" id="work">
+      <div class="work-sticky">
+        <div class="bg-word bg-word-fill" aria-hidden="true">SELECTED WORK</div>
+        <div class="work-track" id="workTrack">
+          <article class="project" style="--c1:#ff5a1f;--c2:#7a1cff">
+            <div class="frame tilt">
+              <div class="art art-dashboard">
+                <div class="ui-top"></div>
+                <div class="ui-grid"><i></i><i></i><i></i></div>
+                <svg class="ui-chart" viewBox="0 0 200 60" preserveAspectRatio="none"><polyline points="0,50 25,42 50,46 75,28 100,32 125,18 150,22 175,8 200,12" /></svg>
+              </div>
+            </div>
+            <h3 class="mono">Analytics Platform</h3>
+            <p class="mono dim">SaaS &middot; Dashboard &middot; Web App</p>
+            <span class="num">01</span>
+          </article>
+
+          <article class="project up" style="--c1:#f6c344;--c2:#ff3d6e">
+            <div class="frame tilt">
+              <div class="art art-phone">
+                <div class="phone"><div class="phone-notch"></div><div class="phone-hero"></div><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <h3 class="mono">Fitness Mobile App</h3>
+            <p class="mono dim">iOS &middot; Android &middot; React Native</p>
+            <span class="num">02</span>
+          </article>
+
+          <article class="project" style="--c1:#26d9a1;--c2:#1c4dff">
+            <div class="frame tilt">
+              <div class="art art-shop">
+                <div class="shop-row"><i></i><i></i></div>
+                <div class="shop-row"><i></i><i></i></div>
+                <div class="shop-cta"></div>
+              </div>
+            </div>
+            <h3 class="mono">E-Commerce Store</h3>
+            <p class="mono dim">Storefront &middot; Payments &middot; CMS</p>
+            <span class="num">03</span>
+          </article>
+
+          <article class="project up" style="--c1:#c14bff;--c2:#ff8a1f">
+            <div class="frame tilt">
+              <div class="art art-brand">
+                <div class="brand-mark"></div>
+                <div class="brand-swatches"><i></i><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <h3 class="mono">Brand &amp; Landing Page</h3>
+            <p class="mono dim">Identity &middot; Motion &middot; Web</p>
+            <span class="num">04</span>
+          </article>
+
+          <article class="project" style="--c1:#4bc6ff;--c2:#7a1cff">
+            <div class="frame tilt">
+              <div class="art art-terminal">
+                <span class="mono">$ lograr deploy</span>
+                <span class="mono ok">&#10003; build passed</span>
+                <span class="mono ok">&#10003; tests 128/128</span>
+                <span class="mono ok">&#10003; live in 42s</span>
+              </div>
+            </div>
+            <h3 class="mono">Internal Tooling</h3>
+            <p class="mono dim">Automation &middot; APIs &middot; Cloud</p>
+            <span class="num">05</span>
+          </article>
+        </div>
+        <div class="work-progress"><span id="workBar"></span></div>
+      </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="quote ink" id="about">
+      <div class="quote-mark" aria-hidden="true">&ldquo;&rdquo;</div>
+      <div class="quote-stage">
+        <h2 class="quote-text">
+          <span>We don't just</span>
+          <span>ship code. We</span>
+          <span>ship results.</span>
+        </h2>
+        <div class="polaroid parallax" data-speed="0.08" aria-hidden="true">
+          <div class="polaroid-img">
+            <span class="mono">// lograr</span>
+            <strong>to achieve.</strong>
+          </div>
+        </div>
+      </div>
+      <p class="quote-sub reveal">Lograr means "to achieve." It's the standard we hold every project to. Small team, senior craft, direct communication and software built to grow with your business.</p>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services dark" id="services">
+      <div class="bg-word bg-word-texture" aria-hidden="true">SERVICES</div>
+      <div class="services-inner">
+        <div class="services-list">
+          <div class="dots" id="svcDots"></div>
+          <div class="svc-text" id="svcText">
+            <h3>Web Development</h3>
+            <p>Fast, beautiful, search-friendly websites and web apps built with modern frameworks.</p>
+          </div>
+        </div>
+        <div class="stack" id="svcStack"></div>
+        <a href="#contact" class="pill pill-light">Start a project</a>
+      </div>
+      <ul class="tech" aria-label="Technologies we use">
+        <li>React</li><li>Next.js</li><li>TypeScript</li><li>Node.js</li><li>Swift</li><li>React Native</li><li>Python</li><li>PostgreSQL</li><li>AWS</li><li>Figma</li>
+      </ul>
+    </section>
+
+    <!-- PROCESS (slanted cream) -->
+    <section class="process cream" id="process">
+      <div class="slant" aria-hidden="true"></div>
+      <div class="process-head">
+        <h2>How we <em>lograr</em>.</h2>
+        <p>A clear, four-step process that keeps you in the loop and keeps your project moving.</p>
+      </div>
+      <ol class="steps">
+        <li class="reveal"><span class="mono">01</span><h3>Discover</h3><p>We learn your business, your users and what success actually looks like.</p></li>
+        <li class="reveal"><span class="mono">02</span><h3>Design</h3><p>Wireframes and polished UI you can click through before a line of code.</p></li>
+        <li class="reveal"><span class="mono">03</span><h3>Build</h3><p>Clean, tested code shipped in weekly sprints you can see and review.</p></li>
+        <li class="reveal"><span class="mono">04</span><h3>Launch &amp; Grow</h3><p>We deploy, measure and keep improving long after launch day.</p></li>
+      </ol>
+      <div class="stats">
+        <div><strong data-count="100">0</strong><span class="mono">% custom built</span></div>
+        <div><strong data-count="24">0</strong><span class="mono">hr response time</span></div>
+        <div><strong data-count="1">0</strong><span class="mono">team, start to finish</span></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact dark" id="contact">
+      <div class="bg-word bg-word-fill" aria-hidden="true">LET'S TALK</div>
+      <div class="contact-inner">
+        <h2>Have an idea?<br/><span class="accent-word">Let's achieve it.</span></h2>
+        <form class="contact-form" id="contactForm">
+          <label><span class="mono">Name</span><input type="text" name="name" required autocomplete="name" /></label>
+          <label><span class="mono">Email</span><input type="email" name="email" required autocomplete="email" /></label>
+          <label class="full"><span class="mono">Project</span><textarea name="message" rows="4" required placeholder="Tell us what you want to build"></textarea></label>
+          <button type="submit" class="pill pill-accent">Send message &rarr;</button>
+          <p class="form-note mono" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-big" aria-hidden="true">LOGRAR</div>
+    <div class="footer-row">
+      <span class="mono">&copy; <span id="year"></span> Lograr Studious LLC</span>
+      <span class="mono">Websites &middot; Apps &middot; Software</span>
+      <a href="#top" class="mono">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
